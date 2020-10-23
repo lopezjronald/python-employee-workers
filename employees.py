@@ -35,9 +35,9 @@ class Production_Worker(Employee):
         return self.__hourly_pay_rate
 
     def __str__(self):
-        return (f"Name: {self.get_employee_name()}"
-                f"Employee Number: {self.get_employee_number()}"
-                f"Employee Shift: {self.get_shift_number()}"
+        return (f"Name: {self.get_employee_name()}\n"
+                f"Employee Number: {self.get_employee_number()}\n"
+                f"Employee Shift: {self.get_shift_number()}\n"
                 f"Employee Hourly Pate Rate: $ {self.get_hourly_pay_rate():,.2f}")
 
 
